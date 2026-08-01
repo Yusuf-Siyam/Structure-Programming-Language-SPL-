@@ -19,6 +19,7 @@ int main()
 /*
 Inverted Half Pyramid Pattern
 #include <stdio.h>
+
 int main()
 {
     int i, j, n;
@@ -34,6 +35,7 @@ int main()
         }
         printf("\n");
     }
+
     return 0;
 }
 
