@@ -15,3 +15,14 @@ int main()
 
     return 0;
 }
+
+/*
+Half Pyramid Pattern
+
+*
+**
+***
+****
+*****
+
+*/
