@@ -8,11 +8,10 @@ int main()
     int value = 25;
 
     // Right shift
-    for(int i = n; i > pos; i--)
+    for(int i = n-1; i >= pos; i--)
     {
         num[i] = num[i - 1];
     }
-
     // Insert value
     num[pos] = value;
     n++;

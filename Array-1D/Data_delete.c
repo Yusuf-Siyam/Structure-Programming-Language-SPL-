@@ -22,6 +22,7 @@ int main()
 
     return 0;
 }
-pos=2
 
+
+pos=2
 output:10 20 40 50
