@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     char str1[100];
@@ -16,6 +15,37 @@ int main()
     }
 
     str2[i] = '\0';
+
+    printf("Copied String: %s", str2);
+
+    return 0;
+}
+
+//--------------------------------
+// Reverse order of the copied string
+
+#include <stdio.h>
+
+int main()
+{
+    char str1[100];
+    char str2[100];
+    int i = 0, j = 0;
+
+    printf("Enter a string: ");
+    fgets(str1, sizeof(str1), stdin);
+
+    for (i = 0; str1[i] != '\0' && str1[i] != '\n'; i++)
+    {
+    }
+
+    for (i = i - 1; i >= 0; i--)
+    {
+        str2[j] = str1[i];
+        j++;
+    }
+
+    str2[j] = '\0';
 
     printf("Copied String: %s", str2);
 
@@ -40,5 +70,5 @@ int main()
 
     return 0;
 }
-    
+
 This program copies a string from one variable to another. */
