@@ -31,23 +31,28 @@ int main()
 }
 
 //
+
 #include <stdio.h>
 
 int main()
 {
     char str[100];
     int i;
-    int vowel = 0, consonant = 0, digit = 0, special = 0;
+    int word = 0, vowel = 0, consonant = 0, digit = 0, special = 0;
 
     printf("Enter a string: ");
     fgets(str, sizeof(str), stdin);
 
     for (i = 0; str[i] != '\0'; i++)
     {
-        if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' ||
-            str[i] == 'o' || str[i] == 'u' ||
-            str[i] == 'A' || str[i] == 'E' || str[i] == 'I' ||
-            str[i] == 'O' || str[i] == 'U')
+        if (str[i] == ' ')
+        {
+            word++;
+        }
+        else if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' ||
+                 str[i] == 'o' || str[i] == 'u' ||
+                 str[i] == 'A' || str[i] == 'E' || str[i] == 'I' ||
+                 str[i] == 'O' || str[i] == 'U')
         {
             vowel++;
         }
@@ -60,12 +65,13 @@ int main()
         {
             digit++;
         }
-        else if (str[i] != ' ' && str[i] != '\n')
+        else if (str[i] != '\n')
         {
             special++;
         }
     }
 
+    printf("Words = %d\n", word + 1);
     printf("Vowels = %d\n", vowel);
     printf("Consonants = %d\n", consonant);
     printf("Digits = %d\n", digit);
