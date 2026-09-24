@@ -1,37 +1,47 @@
 # C Programming Practice
 
-This repository contains my C programming practice, problem-solving exercises, and implementations of fundamental programming concepts.
+This repository contains my C programming practice, problem-solving exercises, manual tracing, and implementations of fundamental programming concepts.
 
-The main purpose of this repository is to build a strong foundation in C programming through regular practice, manual problem solving, tracing, and implementation of different algorithms and programming techniques.
+The main purpose of this repository is to build a strong foundation in C programming through regular practice, problem solving, and implementation of different programming techniques.
 
 ## Topics Covered
 
 ### 1. Basic C Programming
+
 - Variables and constants
 - Data types
 - Input and output
 - Arithmetic operators
-- Relational and logical operators
+- Relational operators
+- Logical operators
+- Assignment operators
 - Type conversion
+- Type casting
 - Basic problem solving
 
 ### 2. Conditional Statements
+
 - `if`
 - `if-else`
 - `else-if`
 - Nested `if`
 - `switch-case`
-- Conditional operators
+- Conditional operator
+- Logical conditions
 
 ### 3. Loops
+
 - `for` loop
 - `while` loop
 - `do-while` loop
 - Nested loops
-- Series problems
+- Loop control
+- `break`
+- `continue`
 - Repetitive calculations
 
 ### 4. Functions
+
 - Function declaration
 - Function definition
 - Function calling
@@ -43,6 +53,7 @@ The main purpose of this repository is to build a strong foundation in C program
 - Multiple functions in a program
 
 ### 5. Number and Digit Problems
+
 - Digit extraction
 - Sum of digits
 - Reverse of a number
@@ -51,31 +62,58 @@ The main purpose of this repository is to build a strong foundation in C program
 - Factorial
 - Fibonacci series
 - Even and odd numbers
-- Number series
+- Absolute difference of digits
+- Number manipulation
 - Mathematical calculations
 
-### 6. Arrays
+### 6. Series Problems
+
+- Natural number series
+- Even number series
+- Odd number series
+- Multiples of numbers
+- Square series
+- Cube series
+- Alternating number series
+- Alternating square series
+- Geometric series
+- Fibonacci series
+- Sum of series
+- User-defined series
+
+### 7. Arrays
+
 - One-dimensional arrays
 - Array input and output
 - Array traversal
 - Sum and average of array elements
 - Maximum and minimum
+- Second largest and second smallest
 - Searching
 - Sorting
 - Array insertion
 - Array deletion
+- Specific position insertion
+- Specific position deletion
 - Array manipulation
 
-### 7. 2D Arrays
+### 8. 2D Arrays
+
 - Matrix input and output
+- Row-wise traversal
+- Column-wise traversal
+- Reverse row traversal
+- Reverse column traversal
 - Matrix addition
 - Matrix subtraction
 - Matrix multiplication
 - Diagonal elements
 - Row and column operations
 - Matrix traversal
+- 2D array manipulation
 
-### 8. Strings
+### 9. Strings
+
 - String input and output
 - String length
 - String copy
@@ -88,7 +126,8 @@ The main purpose of this repository is to build a strong foundation in C program
 - Uppercase and lowercase conversion
 - Manual string operations without string library functions
 
-### 9. Structures
+### 10. Structures
+
 - Basic structures
 - Structure declaration
 - Structure variables
@@ -100,7 +139,8 @@ The main purpose of this repository is to build a strong foundation in C program
 - Searching student information
 - Structure-based problem solving
 
-### 10. Pointers
+### 11. Pointers
+
 - Pointer declaration
 - Address operator `&`
 - Dereference operator `*`
@@ -112,20 +152,30 @@ The main purpose of this repository is to build a strong foundation in C program
 - Functions with pointers
 - String traversal using pointers
 
-### 11. Pattern Printing
+### 12. Pattern Printing
+
 - Star patterns
 - Number patterns
 - Character patterns
+- Right-aligned patterns
+- Left-aligned patterns
+- Pyramid patterns
 - Nested loop based patterns
 
-### 12. Manual Tracing
+### 13. Manual Tracing
+
 - Step-by-step program tracing
 - Variable value tracking
-- Function call tracing
-- Local and global variables
+- Pre-increment and post-increment
+- Pre-decrement and post-decrement
+- Loop tracing
+- Nested loop tracing
+- Conditional statement tracing
+- Switch-case tracing
 - Array tracing
 - String tracing
 - Pointer tracing
+- Function call tracing
 - Understanding function return values
 
 ## Folder Structure
@@ -134,15 +184,19 @@ The main purpose of this repository is to build a strong foundation in C program
 C-Practice/
 │
 ├── Array/
-│   ├── 1D Arrays
-│   ├── 2D Arrays
-│   ├── Searching
-│   ├── Sorting
-│   └── Insertion and Deletion
+│   ├── Array Insertion/
+│   ├── Array Deletion/
+│   ├── Searching/
+│   └── Sorting/
 │
 ├── Array-2D/
+│   ├── Matrix Operations/
+│   ├── Row Operations/
+│   └── Column Operations/
 │
 ├── Num_Digit/
+│
+├── Series/
 │
 ├── String/
 │
@@ -157,3 +211,4 @@ C-Practice/
 ├── Manual Tracing/
 │
 └── Basic.c
+```
