@@ -81,3 +81,42 @@ int main()
 
     return 0;
 }
+
+/*input:
+4
+
+Keyboard
+101
+450
+20
+
+Mouse
+102
+300
+35
+
+Monitor
+103
+8500
+4
+
+Cable
+104
+120
+50  input close
+
+output:
+Sales Report
+---------------------------------------------------------------
+Name         PID      Unit Price   Quantity     Revenue
+---------------------------------------------------------------
+Keyboard     101      450.00       20           9000.00
+Mouse        102      300.00       35           10500.00
+Monitor      103      8500.00      4            34000.00
+Cable        104      120.00       50           6000.00
+
+Highest revenue: Monitor (103)
+Lowest revenue: Cable (104)
+Average revenue: 14875.00
+
+*/
