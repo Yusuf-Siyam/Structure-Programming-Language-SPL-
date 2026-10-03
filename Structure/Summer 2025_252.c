@@ -16,12 +16,12 @@ int main()
 
     printf("Enter number of students: ");
     scanf("%d", &n);
-    getchar();
+    
 
     // Input
     for(i = 0; i < n; i++)
     {
-        printf("\nStudent %d\n", i + 1);
+        getchar(); //loop to consume the newline character left by previous scanf
 
         printf("Enter Name: ");
         fgets(s[i].name, sizeof(s[i].name), stdin);
@@ -31,8 +31,6 @@ int main()
 
         printf("Enter Marks: ");
         scanf("%f", &s[i].marks);
-
-        getchar();
     }
 
     // Find minimum, maximum and sum
@@ -71,8 +69,6 @@ int main()
 
     return 0;
 }
-
-
 
 /*  output:
 Enter number of students: 3 
