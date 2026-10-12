@@ -35,7 +35,7 @@ int main()
     printf("Enter a string: ");
     fgets(str1, sizeof(str1), stdin);
 
-    for (i = 0; str1[i] != '\0' && str1[i] != '\n'; i++)
+    for (i = 0; str1[i] != '\0' ; i++)
     {
     }
 
